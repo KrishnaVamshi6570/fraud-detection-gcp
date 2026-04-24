@@ -46,7 +46,8 @@ def generate_transaction(is_fraud: bool = False) -> dict:
         amount = round(min(random.lognormvariate(3.5, 1.2), 5000.0), 2)
 
     email_domain = random.choices(EMAIL_DOMAINS, EMAIL_WEIGHTS)[0]
-    now          = datetime.utcnow()
+    from datetime import timezone
+    now = datetime.now(timezone.utc)
     hour         = now.hour
     is_late_night= 1 if hour < 6 else 0
 
@@ -101,7 +102,7 @@ def generate_transaction(is_fraud: bool = False) -> dict:
         "device_is_null" : 0 if random.choices(DEVICE_TYPES, DEVICE_WEIGHTS)[0] else 1,
 
         # Metadata
-        "ingested_at"    : now.isoformat() + "Z"
+        "ingested_at"    : now.strftime("%Y-%m-%d %H:%M:%S.%f")
     }
 
     return transaction
