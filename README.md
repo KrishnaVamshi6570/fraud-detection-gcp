@@ -17,7 +17,7 @@ IEEE-CIS Fraud Detection dataset — 590,540 transactions, 3.5% fraud rate.
 - [x] Day 2 — BigQuery schema design + raw data ingestion
 - [x] Day 3 — Feature engineering
 - [x] Day 4 — Pub/Sub streaming simulator
-- [ ] Day 5 — Beam pipeline
+- [x] Day 5 — Beam pipeline
 - [ ] Day 8 — BigQuery ML model training
 - [ ] Day 9 — Batch predictions
 - [ ] Day 10 — Cloud Run inference API
