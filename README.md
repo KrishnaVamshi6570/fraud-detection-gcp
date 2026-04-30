@@ -25,7 +25,7 @@ IEEE-CIS Fraud Detection dataset — 590,540 transactions, 3.5% fraud rate.
 - [ ] Day 12 — Final polish + architecture diagram
 
 ## Live Dashboard
-🔗 [Fraud Detection Dashboard]https://datastudio.google.com/reporting/302c858f-b58c-493f-8212-9e7f98760fe3)
+🔗 [Fraud Detection Dashboard](https://datastudio.google.com/reporting/302c858f-b58c-493f-8212-9e7f98760fe3)
 
 ## Dashboard Preview
 ![Dashboard](screenshots/fraud-detection-dashboard.png)
