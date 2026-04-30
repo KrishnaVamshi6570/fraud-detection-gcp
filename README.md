@@ -23,3 +23,9 @@ IEEE-CIS Fraud Detection dataset — 590,540 transactions, 3.5% fraud rate.
 - [ ] Day 10 — Cloud Run inference API
 - [ ] Day 11 — Looker Studio dashboard
 - [ ] Day 12 — Final polish + architecture diagram
+
+## Live Dashboard
+🔗 [Fraud Detection Dashboard](PASTE_YOUR_LOOKER_LINK_HERE)
+
+## Dashboard Preview
+![Dashboard](screenshots/dashboard.png)
